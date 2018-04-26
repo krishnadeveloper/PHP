@@ -1,4 +1,7 @@
 Easy steps to create the laravel package
 
-1. Create "packages" directory under main directory
-2.
+1. Create "packages" directory under main directory.
+2. Create the directory <vender>/<package name> under packages directory.
+3. Create the directory "src" under <vender>/<package name> directory.
+4. open CMD then run the command : composer init
+
