@@ -1,6 +1,6 @@
 # Get Filesize in KB,MB,GB when filesize in bytes
 
-<?php
+> <?php
     function filesize($bytes)
     {
         if ($bytes >= 1073741824)
