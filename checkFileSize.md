@@ -31,6 +31,8 @@
         return $bytes;
     }
 
+****************************************************************
+
 
     // @getFilesize() reqired two parameters @size and @option
 
