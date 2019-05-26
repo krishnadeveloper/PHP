@@ -13,3 +13,16 @@
 ###Now verify the installation
 
 Run command in terminal ; `composer --version`
+
+=============================================
+
+## Quick steps 
+ Open termonal
+1. `curl -sS https://getcomposer.org/installer | php`
+
+2. `sudo mv composer.phar /usr/local/bin/`
+3. Password: "Enter your password"
+4. `sudo chmod 755 /usr/local/bin/composer.phar`
+5. `nano ~/.bash_profile`
+6. `source ~/.bash_profile`
+7. `composer --version`
