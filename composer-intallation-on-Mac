@@ -1,6 +1,6 @@
-##Setps are below install composer globally on mac
+## Setps are below install composer globally on mac
 
-1. Open a terminal and navigate to your user directory, ie `cd /User/<USER_NAME>/`
+1. Open a terminal
 2. Run this command shown below to download Composer. This will create a Phar (PHP Archive) file called 
    `curl -sS https://getcomposer.org/installer | php`
 3. Now we move composer.phar file to a directory `sudo mv composer.phar /usr/local/bin/`
@@ -10,6 +10,6 @@
    `alias composer="php /usr/local/bin/composer.phar"`
 7. Run command: `source ~/.bash_profile`
 
-### Now verify the installation
+###Now verify the installation
 
 Run command in terminal ; `composer --version`
