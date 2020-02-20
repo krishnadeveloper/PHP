@@ -24,5 +24,6 @@ Run command in terminal ; `composer --version`
 3. Password: "Enter your password"
 4. `sudo chmod 755 /usr/local/bin/composer.phar`
 5. `nano ~/.bash_profile`
-6. `source ~/.bash_profile`
-7. `composer --version`
+6. Add `alias composer="php /usr/local/bin/composer.phar"` in to opened .bash_profile and save
+7. `source ~/.bash_profile`
+8. `composer --version`
